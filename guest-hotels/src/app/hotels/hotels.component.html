@@ -1,0 +1,12 @@
+
+        <button (click)= "getHotel()">Get Data</button>
+      
+      <ul *ngFor="let hotel of hotels">
+        <li>{{hotel.hotel_id}} </li>
+          <li>{{hotel.name}}</li>
+            <li>{{hotel.phone}}</li>
+              <li>{{hotel.address}</li>
+                <li>{{hotel.email}</li>
+
+        </ul>
+     

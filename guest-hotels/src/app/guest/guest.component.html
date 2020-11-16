@@ -1,0 +1,21 @@
+<div class="container">
+    <table class="table table-bordered table-striped">
+      <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Surname</th>
+        <th>Phone</th>
+        <th>Action</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let guest of guests;">
+        <td><span>{{guest.guestId}}</span></td>
+        <td><span>{{guest.name}}</span></td>
+        <td><span>{{guest.surname}}</span></td>
+        <td><span>{{guest.phone}}</span></td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
